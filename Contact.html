@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <style>
+	 	*{
+	 		padding: 0;
+	 		margin: 0;
+	 		font-family: sans-serif;
+	 	}
+	 	body{
+	 		background: url('images/11.png') no-repeat;
+	 		background-size: cover;
+	 		color: #fff;
+	 	}
+		.navbar{
+	width:1200px;
+	height: 75px;
+	margin: auto;
+}
+
+.icon{
+	width:200px;
+	float: left;
+	height: 70px;
+}
+
+.logo{
+	color: #ff7200;
+	font-size: 50px;
+	font-family: Edwardian Script ITC;
+	padding-left: 3px;
+	float: left;
+	padding-top: 8px;
+}
+
+.menu{
+	width:400px;
+	float: left;
+	height: 70px;
+}
+
+ul{
+	padding-left: 70px;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ul li{
+	float: right;
+	list-style: none;
+	margin-left: 5px;
+	margin-top: 25px;
+	font-size: 17px;
+}
+
+ul li a{
+	 	text-decoration: none;
+        color: #fff;
+        padding: 5px 43px;
+        border: 1px solid #fff;
+        transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+    color:#000;
+}
+.logo{
+	color: #ff7200;
+	font-size: 50px;
+	font-family: Edwardian Script ITC;
+	padding-left: 3px;
+	float: left;
+	padding-top: 8px;
+}
+.search{
+	width: 300px;
+	float: left;
+	margin-left: 270px;
+    padding-left: 30px;
+}
+
+.srch{
+	font-family: 'Times New Roman';
+	width: 160px;
+	height: 33px;
+	background: transparent; 
+	border: 1px solid #ff7200;
+	margin-top: 18px;
+	color: #fff;
+	border-right: none;
+	font-size: 16px;
+	float: left;
+	padding: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.btn{
+	width: 95px;
+	height: 33px;
+	background: #ff7200;
+	border: 2px solid #ff7200;
+	margin-top: 18px;
+	color: #fff;
+	font-size: 15px;
+	border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+	outline: none;
+}
+
+.srch:focus{
+	outline: none;
+}
+	 	.contact-us {
+	 		position: absolute;
+	 		top: 50%;
+	 		left: 50%;
+	 		transform: translate(-50%, -50%);
+	 		width:350px;
+	 	}
+
+	 	.contact-us h1 {
+	 		font-size: 31px;
+	 		text-align: center;
+	 		text-transform: uppercase;
+	 		margin: 40px 0;
+	 	}
+
+	 	.contact-us p {
+	 		font-size: 20px;
+	 		margin: 15px 0;
+	 	}
+
+	 	.contact-us input {
+	 		font-size: 16px;
+	 		padding: 15px 10px;
+	 		width: 100%;
+	 		border:0;
+	 		border-radius: 5px;
+	 		outline: none;
+	 	}
+	 	.contact-us button {
+	 		font-size: 18px;
+	 		font-weight: bold;
+	 		margin: 20px 0;
+	 		padding: 10px 15px;
+	 		width: 50%;
+	 		border: 0;
+	 		border-radius: 5px;
+	 		background-color: green;
+	 	}
+
+	 	.contact-us button:hover
+	      {
+	 		color: white;
+	 	}
+  	 </style>
+<title>Contact Us</title>
+</head>
+<body>
+	 <div class="main">
+		<div class="navbar">
+			<div class="icon">
+				<h2 class="logo">Elide</h2>
+			</div>
+
+			<div class="menu">
+				<ul>
+ 					<li><a href="WebTech.html">Home</a></li>
+					<li><a href="Register.html">Register</a></li>
+					<li><a href="Services.html">Services</a></li>
+					<li><a href="Contact.html">Contact</a></li>
+				</ul>
+			</div>
+
+			<div class="search">
+				<input class="srch"type="search" name="" placeholder="Type To text">
+				<a href="#"> <button class="btn">Search</button></a>
+			</div>
+		</div>
+   </div>
+	<div class="contact-us">
+		<h1>Contact-Us </h1>
+		<form action="#" method="post">
+			<p>Your Name:</p>
+			<input type="text" name="yourname" placeholder="Your Name">
+			<p>Your Phone:</p>
+			<input type="text" name="yourphone" placeholder="Your Phone">
+			<p> Your Email:</p>
+			<input type="email" name="youremail" placeholder=" Your Email">
+			<p>Message:</p>
+			<input type="Message" name="message" placeholder="Message">
+			<button type="submit">Send</button>
+		</form>		
+	</div>
+
+
+</body>	
+</html>
